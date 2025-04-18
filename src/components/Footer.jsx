@@ -10,8 +10,8 @@ const Footer = () => {
           {/* Contact Information */}
           <div className="space-y-6">
             <div className="flex items-center mb-4">
-              <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center mr-2">
-                <span className="text-[#112C56] font-bold text-2xl">D</span>
+              <div className="w-12 h-12 relative bg-white rounded-full flex items-center justify-center mr-2">
+                <span className="text-[#112C56] font-bold text-lg absolute inset-0 flex items-center justify-center z-10">Swiss</span>
               </div>
             </div>
             
@@ -122,11 +122,11 @@ const Footer = () => {
                   <input 
                     type="email" 
                     placeholder="Your Email" 
-                    className="w-full p-3 rounded-full text-gray-800 pr-12"
+                    className="w-full p-3 focus:outline-dashed rounded-full text-white pr-12"
                   />
                   <button 
                     type="submit" 
-                    className="absolute right-1 top-1 bg-[#1E40AF] hover:bg-[#FC6A03] transition-colors p-2 rounded-full"
+                    className="absolute right-[5px] top-[8px] bg-[#1E40AF] hover:bg-[#FC6A03] transition-colors p-2 rounded-full"
                   >
                     <FaEnvelope className="text-white" />
                   </button>

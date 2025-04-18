@@ -38,7 +38,7 @@ const Navbar = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center">
           <div className="w-12 h-12 bg-[#112C56] rounded-full flex items-center justify-center">
-            <span className="text-white font-bold text-2xl">Swiss</span>
+            <span className="text-white font-bold text-base">Swiss</span>
           </div>
         </Link>
 
