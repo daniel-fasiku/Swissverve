@@ -86,7 +86,7 @@ const ConsultationPage = () => {
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      className="w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      className="w-full pl-10 pr-3 py-3 border text-white border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                       placeholder="John Doe"
                       required
                     />
@@ -107,7 +107,7 @@ const ConsultationPage = () => {
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
-                      className="w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      className="w-full pl-10 pr-3 py-3 border text-white border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                       placeholder="email@example.com"
                       required
                     />
@@ -128,7 +128,7 @@ const ConsultationPage = () => {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      className="w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      className="w-full pl-10 pr-3 py-3 border text-white border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                       placeholder="+1 (123) 456-7890"
                       required
                     />
@@ -149,7 +149,7 @@ const ConsultationPage = () => {
                       value={formData.message}
                       onChange={handleChange}
                       rows="5"
-                      className="w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      className="w-full pl-10 pr-3 py-3 border text-white border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                       placeholder="Please describe your situation in detail..."
                       required
                     ></textarea>
@@ -164,7 +164,7 @@ const ConsultationPage = () => {
                       type="checkbox"
                       checked={formData.agreement}
                       onChange={handleChange}
-                      className="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
+                      className="w-4 h-4 text-blue-600 text-white border-gray-300 rounded focus:ring-blue-500"
                       required
                     />
                   </div>
